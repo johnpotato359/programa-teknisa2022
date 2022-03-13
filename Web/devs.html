@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisando Desenvolvedores</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="container">
+        <h1 class="titulo-cabecalho">Pesquisa de Desenvolvedores</h1>
+        <section>
+            <div id="name">
+                <label>Por Nome:</label>
+                <input type="text" id="nameSearch" placeholder="Digite aqui">
+            </div>
+            <div id="language">
+                <label>Por Linguagem:</label>
+                <div id="condition">
+                    <label>
+                        <input id="1" type="radio" name="option" checked/>
+                        <span>E</span>
+                    </label>
+                    <label>
+                        <input id="2" type="radio" name="option"/>
+                        <span>OU</span>
+                    </label>
+                </div>
+            </div>
+            <div id="languageOptions">
+                <label>
+                    <input id="java" type="checkbox" name="java" checked>
+                    <span>Java</span>
+                </label>
+                <label>
+                    <input id="php" type="checkbox" name="php" checked>
+                    <span>PHP</span>
+                </label>
+                <label>
+                    <input id="javascript" type="checkbox" name="javascript" checked>
+                    <span>Javascript</span>
+                </label>
+                <label>
+                    <input id="python" type="checkbox" name="python" checked>
+                    <span>Python</span>
+                </label>
+            </div>
+        </section>
+    </header>
+    <section class="result">
+        <div class="count_results">
+            <span id="countResult"></span>
+            <span>Resultados</span>
+        </div>
+        <div class="container">
+            <div class="card" id="person1">
+                <div class="profilePicture">
+                    <img class="image" src="images/person1.jpg" alt="Developer Person">
+                </div>
+                <div class="profileDescription">
+                    <div class="info">
+                        <h3 class="card-title" name="username">Bryan Farias</h3>
+                        <small name="age">53</small>
+                        <small name="mail">bryan.farias@example.com</small>
+                        <span name="phone">(31) 9999-1545</span>
+                        <span name="github">https://github.com/greenwolf425</span>
+                        <span name="description">Graduado em Redes de Computadores pela COTEMIG</small>
+                        <span name="descriptionAbility">5
+                            Experiências: 
+                            - Mobile
+                            - Análise de Sistemas
+                            - DevOps
+                            - Programação Web
+                            - Adm. de Banco de Dados (DBA)
+                            - Gerência de Projeto
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main>
+
+    </main>
+
+    <footer>
+
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>
